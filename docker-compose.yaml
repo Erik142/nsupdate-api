@@ -1,0 +1,15 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./config/config.json:/root/nsupdate-api/config/config.json
+    networks:
+      - frontend
+networks:
+  frontend:
+    name: frontend
