@@ -1,0 +1,19 @@
+{
+  "name": "nsupdate-api",
+  "version": "1.0.0",
+  "description": "REST API for nsupdate utility in Linux",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erik142/nsupdate-api.git"
+  },
+  "author": "Erik Wahlberger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erik142/nsupdate-api/issues"
+  },
+  "homepage": "https://github.com/Erik142/nsupdate-api#readme"
+}
