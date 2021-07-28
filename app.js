@@ -8,4 +8,5 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use('/v1/update', updaterouter)
 
-app.listen(config.port, config.listenAddress)
+console.log("Port: " + config.port + "\n")
+app.listen(config.port)
