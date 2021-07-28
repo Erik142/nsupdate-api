@@ -1,6 +1,6 @@
 {
   "name": "nsupdate-api",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "REST API for nsupdate utility in Linux",
   "main": "app.js",
   "scripts": {
