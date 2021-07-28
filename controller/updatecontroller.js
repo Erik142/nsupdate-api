@@ -85,7 +85,10 @@ function executeUpdate(updateString) {
         throw Error("nsupdate command was not found on the system.")
     }
 
+    console.log("Executing nsupdate...")
     nsupdate = shelljs.exec("echo \"" + updateString + "\" | nsupdate -k " + config.keyPath)
+    console.log("Finished executing nsupdate!")
+
     if (nsupdate.code != 0) {
         throw Error("An error occured when updating the DNS record: " + nsupdate.stderr)
     }
